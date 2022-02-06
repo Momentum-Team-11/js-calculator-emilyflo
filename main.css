@@ -1,0 +1,32 @@
+* {
+    border: white solid 1px;
+}
+
+.wholeContainer {
+    display: grid;
+    color: white;
+    background-color: green;
+    font-family: Verdana;
+    font-size: 20pt;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    width: 400px;
+}
+
+.screen {
+    grid-column: span 3;
+}
+
+div {
+    display: flex;
+    height: 99%;
+    width: 100%;
+    border: white solid 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation {
+    color: darkgreen;
+    background-color: lightgreen;
+}
