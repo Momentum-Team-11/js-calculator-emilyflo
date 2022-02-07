@@ -30,3 +30,7 @@ div {
     color: darkgreen;
     background-color: lightgreen;
 }
+
+p {
+    border: none;
+}
